@@ -1,3 +1,17 @@
 name: Laura Gomez Navarro, PhD student
 markdown: kramdown
 permalink: /blog/2019/03/19/site-launch
+
+# Site Author
+author:
+  name             : "Laura"
+  avatar           : "profile.png"
+  bio              : "Your biography for the left-hand sidebar"
+  location         : "Location"
+  employer         :
+  googlescholar    : "http://yourfullgooglescholarurl.com"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  linkedin         :
+  orcid            : "http://orcid.org/yourorcidurl"
+  twitter          : "replacethistwitterhandle"
+
