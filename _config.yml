@@ -1,4 +1,4 @@
-name: Laura Gomez Navarro, PhD student
+name: Laura Gomez Navarro, Postdoc
 markdown: kramdown
 permalink: /blog/2019/03/19/site-launch
 
@@ -15,3 +15,5 @@ author:
   orcid            : "http://orcid.org/yourorcidurl"
   twitter          : "replacethistwitterhandle"
 
+header:
+  image: https://linkedinheaders.com/uncategorized/ocean-waves/
