@@ -16,4 +16,5 @@ author:
   twitter          : "replacethistwitterhandle"
 
 header:
-  image: https://linkedinheaders.com/uncategorized/ocean-waves/
+  image: /assets/img/header_preswot.jpg
+  # https://linkedinheaders.com/uncategorized/ocean-waves/
