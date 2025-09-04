@@ -7,12 +7,12 @@ author:
   name             : "Laura"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  location         : "Barcelona"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-5878-4501"
   twitter          : "replacethistwitterhandle"
 
 header:
