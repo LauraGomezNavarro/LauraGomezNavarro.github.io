@@ -20,9 +20,10 @@
   <a href="https://icm.csic.es" target="_blank">
     <img src="{{ '/assets/images/header.jpg' | relative_url }}" alt="Header Image">
   </a>
-```
+  ```
   * Optional: make it configurable via _config.yml
   If you’d rather not hard-code it, you can replace with:
+  
   ```
   <a href="{{ site.header.link | default: '/' | relative_url }}">
     <img src="{{ site.header.image | relative_url }}" alt="Header Image">
