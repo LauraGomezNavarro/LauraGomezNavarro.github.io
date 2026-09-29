@@ -1,48 +1,61 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<header>
-		  <!-- Local image option: Uncomment this block to use the image stored in your repo -->
-		  <a href="{{ '/' | relative_url }}">
-		    <img src="{{ '/assets/img/header_preswot.jpeg' | relative_url }}" alt="Header Image">
-		  </a>
-		  
-		  <!-- External image option: This is currently active
-		  <a href="https://tse2.mm.bing.net/th?id=OIP.Vg81zjW3mN8a2_8Vzl_p3wHaB2&pid=Api" target="_blank">
-		    <img src="https://tse2.mm.bing.net/th?id=OIP.Vg81zjW3mN8a2_8Vzl_p3wHaB2&pid=Api" alt="Header Image">
-		  </a>
-		  -->
-		</header>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-				<li><a href="/outreach">Outreach</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-				<li><a href="https://github.com/LauraGomezNavarro">Github</a></li>
-				<li><a href="https://www.researchgate.net/profile/Laura_Gomez-Navarro">ResearchGate</a></li>
-				<li><a href="https://twitter.com/LauraGomNav">@LauraGomNav</a></li>
-				<li><a href="https://twitter.com/LauraGomNav" rel="noopener noreferrer" target="_blank"><i class="fa fa-twitter fa-xs" style="width:5vmax;"></i></a><li>
-			</ul>
-				
-			</footer>
-		</body>
-	</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>{{ page.title }}</title>
 
+    <link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | relative_url }}">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="{{ '/' | relative_url }}">
+            <img
+                src="{{ '/assets/img/header_preswot.jpeg' | relative_url }}"
+                alt="Header Image"
+                class="header-image"
+            >
+        </a>
+    </header>
+
+    <nav class="site-nav">
+        <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/about' | relative_url }}">About</a></li>
+            <li><a href="{{ '/cv' | relative_url }}">CV</a></li>
+            <li><a href="{{ '/outreach' | relative_url }}">Outreach</a></li>
+            <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <footer class="site-footer">
+        <ul>
+            <li>
+                <a href="https://github.com/LauraGomezNavarro" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.researchgate.net/profile/Laura_Gomez-Navarro" target="_blank" rel="noopener noreferrer">
+                    ResearchGate
+                </a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com/LauraGomNav" target="_blank" rel="noopener noreferrer">
+                    @LauraGomNav
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
